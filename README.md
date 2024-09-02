@@ -1,7 +1,4 @@
-Print the dictionary contents
-print("\nCar Data:")
-for key, value in car_data.items():
+us_yt = pd.read_csv(' ../input/youtube-new/USvideos.csv')
+display(us_yt.head())
+print(us_yt.columns)
 
-
-if_ _name__"__main__":
-main()
