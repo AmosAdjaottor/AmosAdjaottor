@@ -1,4 +1,5 @@
-us_yt = pd.read_csv(' ../input/youtube-new/USvideos.csv')
-display(us_yt.head())
-print(us_yt.columns)
+select Min (age) as min_age,
+Max (age) as max_age
+From employee_info;
+
 
